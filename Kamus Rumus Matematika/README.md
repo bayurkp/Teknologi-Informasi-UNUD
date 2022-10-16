@@ -31,5 +31,6 @@ _Program Operasi Matematika_ menggunakan bahasa pemrograman C.
 
 ## Pratinjau
 
-
-
+![Screenshot (12)](https://user-images.githubusercontent.com/87742568/196034137-61917f7c-a068-4c88-a1eb-4e0c3a93c985.png)
+![Screenshot (11)](https://user-images.githubusercontent.com/87742568/196034138-c6e7b7d5-2b2d-4d0b-b09e-57e7eec1f954.png)
+![Screenshot (81)](https://user-images.githubusercontent.com/87742568/196034139-51b207fb-5dea-4dd2-bb31-8615d9ed1681.png)
