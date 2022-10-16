@@ -70,7 +70,7 @@ float checkInput() {
     }
     if (salah == 1) {
         printf("|| ================================================== ||\n");
-        printf("||       Maaf, input Anda salah. Mohon ulangi!     ||\n");
+        printf("||        Maaf, input Anda salah. Mohon ulangi!       ||\n");
         printf("|| ================================================== ||\n");
         printf("|| ");
         return checkInput();
