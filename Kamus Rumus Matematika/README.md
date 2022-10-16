@@ -16,13 +16,20 @@ Program operasi matematika adalah program komputer yang dapat melakukan perhitun
 
 Visual Studio Code atau VS Code adalah piranti lunak yang berfungai sebagai editor teks. _Program operasi matematika_ disusun dengan menggunakan editor teks ini. 
 
-[2] Cygwin Compiler
+[2] Windows Powershell
 
-Cygwin Compiler adalah piranti yang digunakan untuk mengompilasi program. _Program operasi matematika_ dikompilasi dengan menggunakan kompiler ini.
+Windows Powershell adalah perangkat yang digunakan untuk menjalankan atau mengeksekusi _Program Operasi Matematika_.
 
-[3] C
+[3] GNU C Compiler
 
-C adalah bahasa pemrograman komputer. _Program operasi matematika_ menggunakan bahasa pemrograman C.
+GNU C Compiler adalah perangkat yang berfungsi untuk mengompilasi program C agar dapat dieksekusi.
+
+[4] C
+
+_Program Operasi Matematika_ menggunakan bahasa pemrograman C.
+
 
 ## Pratinjau
+
+
 
