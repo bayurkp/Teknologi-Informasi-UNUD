@@ -3,6 +3,17 @@
 #include <stdlib.h>
 #include <string.h>
 
+void nama() {
+    printf("|| ================================================== ||\n");
+    printf("||             Program Operasi Matematika             ||\n");
+    printf("|| ================================================== ||\n");
+    printf("||                      Oleh :                        ||\n");
+    printf("|| ================================================== ||\n");
+    printf("|| Bayu Rizky Kurnia Pratama                          ||\n");
+    printf("|| 2205551070                                         ||\n");
+    printf("|| ================================================== ||\n");
+}
+
 void menuUtama();
 
 //Check input
@@ -85,10 +96,8 @@ void cobaLagi()  {
     printf("\n\n|| ================================================== ||\n");
     printf("||   Apakah Anda ingin menjalankan program kembali?   ||\n");
     printf("|| ================================================== ||\n");
-    printf("||  Kode ||               Pilihan                     ||\n");
-    printf("|| ================================================== ||\n");
-    printf("||  [1]  ||                 Iya                       ||\n");
-    printf("||  [2]  ||                Tidak                      ||\n");
+    printf("||  1. Iya                                            ||\n");
+    printf("||  2. Tidak                                          ||\n");
     printf("|| ================================================== ||\n");
     printf("|| Pilihan Anda : ");
     pilihan = checkInput();
@@ -338,7 +347,7 @@ float lingkaranKeliling() {
     printf("\n|| ================================================== ||\n");
     printf("||                Keliling Lingkaran                  ||\n");
     printf("|| ================================================== ||\n");
-    printf("|| Masukkan alas : ");
+    printf("|| Masukkan jari-jari : ");
     jariJari = checkInput();
 
     keliling = M_PI * pow(jariJari, 2);
@@ -352,7 +361,7 @@ float lingkaranLuas() {
     printf("\n|| ================================================== ||\n");
     printf("||                  Luas Lingkaran                    ||\n");
     printf("|| ================================================== ||\n");
-    printf("|| Masukkan alas : ");
+    printf("|| Masukkan jari-jari : ");
     jariJari = checkInput();
 
     luas = M_PI * 2 * jariJari;
