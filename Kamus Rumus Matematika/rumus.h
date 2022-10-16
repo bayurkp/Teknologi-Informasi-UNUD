@@ -4,6 +4,8 @@
 #include <string.h>
 
 void nama() {
+    char next;
+    
     printf("|| ================================================== ||\n");
     printf("||             Program Operasi Matematika             ||\n");
     printf("|| ================================================== ||\n");
@@ -12,6 +14,8 @@ void nama() {
     printf("|| Bayu Rizky Kurnia Pratama                          ||\n");
     printf("|| 2205551070                                         ||\n");
     printf("|| ================================================== ||\n");
+    scanf("%c", &next);
+    system("clear");
 }
 
 void menuUtama();
