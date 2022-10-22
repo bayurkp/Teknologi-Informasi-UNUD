@@ -65,6 +65,7 @@ void menuListrik()
 //registrasi
 void registrasi(char *nama, float *selisihPemakaian, float *biayaPemakaian, float biayaKurang10, float biayaLebih10, float biayaLebih20)
 {   
+    system("clear");
     int x = 0;
     while (x == 0)
     {
@@ -172,6 +173,7 @@ float cekInput() {
 
 void ulangProgram()
 {
+    system("clear");
     int pilihan, menu;
     printf("\n\n|| ================================================== ||\n");
     printf("||                " BOLD "CV. SAUBERES WASSER" BOLD_END "                 ||\n");
@@ -201,12 +203,13 @@ void ulangProgram()
 
 //rekapitulasi
 void rekapitulasi(char nama[], char kelompok[], char golongan[], float selisihPemakaian, float biayaPemakaian, float bpm , float adm) {
+    system("clear");
     time_t t;
     t = time(NULL);
     struct tm tm = *localtime(&t);
     float denda;
     int sisaWaktu = tm.tm_mday - JATUH_TEMPO;
-    
+
     if (sisaWaktu <= 0) denda = 0;
     else denda = DENDA;
 
@@ -268,7 +271,6 @@ void intro()
     printf("||            Tekan enter untuk melanjutkan!          ||\n");
     printf("|| ================================================== ||");
     getchar();
-    system("clear");
     menuKelompok();
 }
 
@@ -276,6 +278,7 @@ void intro()
 
 void menuKelompok() //menu usaha
 {
+    system("clear");
     printf("|| ================================================== ||\n");
     printf("||                " BOLD "CV. SAUBERES WASSER" BOLD_END "                 ||\n");
     printf("|| ================================================== ||\n");
@@ -352,9 +355,8 @@ void menuUsaha()
     printf("|| ================================================== ||\n");
     printf("||                " BOLD "CV. SAUBERES WASSER" BOLD_END "                 ||\n");
     printf("|| ================================================== ||\n");
-    printf("||                 ~ RUMAH TANGGA ~                   ||\n");
-    printf("||   Lebar jalan termasuk got dan berm serta persil   ||\n");
-    printf("||                 dari rumah Anda.                   ||\n");
+    printf("||                     ~ USAHA ~                      ||\n");
+    printf("||         Lebar jalan termasuk got dan berm.         ||\n");
     printf("|| ================================================== ||\n");
     printf("|| [1] Lebar jalan 0 meter - 6,99 meter               ||\n");
     printf("|| [2] Lebar jalan 7 meter - 10 meter                 ||\n");
